@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Presentación Personal</title>
+	</head>
+
+	<body>
+			<div class="Encabezado">
+				<h1>Mi blog personal</h1>
+				<p><i>by: Ivan Alejandro Gutierrez Espinosa</i></p>
+			</div>
+
+			<div id="Contenedor">
+				<div id="Texto">
+
+					<p>Mi nombre es Ivan Alejandro Gutierrez Espinosa, soy un estudiante de cuarto semestre de la Universidad de la Sabana, nacido en la ciudad de Bogotá pero que toda su vida vivió en Villavicencio, y les voy a contar acerca de mi historia de vida y mis proyectos a futuro tanto a nivel personal como profesional.</p>
+
+					<h2>JUNIOR:</h2>
+					<p>Cuando recién nací y antes de ingresar a mis estudios primarios, mi mama me dijo que me caracterizaba por ser alguien de carácter alegre y curioso, además de poseer habilidades cognitivas algo avanzada para mi edad, pero en contraste a eso una habilidad motriz muy poco desarrollada, pues a pesar de que a mis 4 años tenía conocimiento del alfabeto, los números en ingles y un conocimiento básico de la suma, no sabia ni leer ni escribir, por ende le fue complicado a mi mama encontrarme una escuela que me aceptara con dichas condiciones.</p>
+
+					<h2>COLEGIO PRIMARIA:</h2>
+					<p>Comencé a estudiar a mis 4 años en el grado de jardín, en una escuela cercana a mi casa donde aprendí a leer y a escribir, además afiance algunos de los conceptos que ya conocía previamente gracias a la educación en casa que me brindo mi mama de pequeño. Posterior a esto, a los 5 años me cambie al colegio Nuevo Gimnasio School donde reanude mis estudios y los culmine.</p>
+					<p>Durante mi colegio primaria, resalte por mis buenas calificaciones y aptitudes en el área de las matemáticas, adicionalmente participe en el gobierno escolar donde llevaba el cargo de “Personerito”. Finalmente, gane habilidades sociales y comunicativas al hacer nuevas amistades.</p>
+
+					<h2>COLEGIO BACHILLERATO:</h2>
+					<p>Recién entre a mi educación bachiller, fui becado debido a mi excelencia académica durante toda mi educación primaria, y un año después me volvieron a becar, pero esta vez por todos mis estudios bachilleres. Durante el bachiller, debido a mis aptitudes matemáticas participe representando al colegio en unas olimpiadas matemáticas organizadas por la Universidad Antonio Nariño en la ciudad de Bogotá. Finalmente, durante mi trayecto en el bachillerato fue que encontré mi pasión por las computadoras y la programación tras ver el gran mundo que estas me abría durante una visita de la Universidad de la Sabana en las instalaciones de mi colegio.</p>
+
+					<h2>PREGRADO:</h2>
+					<p>Actualmente me encuentro en esta fase de mi vida académica, me encuentro estudiando ingeniería informática en cuarto semestre en la Universidad de la Sabana, donde he aprendido acerca de temáticas donde mi conocimiento era casi nulo, específicamente en el ámbito de la programación. Además, he reforzado mis actitudes y aptitudes a la hora de trabajar en grupo, alimentando mi espíritu de líder y habilidades comunicativas al trabajar con personas con las que nunca había interactuado.</p>
+
+					<h2>PROYECCIONES A FUTURO: </h2>
+					<p>A futuro me proyecto a nivel formativo, estudiando una especialización en desarrollo de software o algo relacionado a ello, ya que hasta el momento es lo que mas llamativo se me ha hecho de mi carrera. En cuanto a nivel productivo, me gustaría trabajar para grandes empresas como Oracle en España donde pueda generar grandes ingresos y ganar mucha experiencia para en un futuro aun mas lejano fundar mi propia empresa.</p>
+
+				</div>
+
+				<div id="Imagenes">
+				<img src="Yo.png" class="center">
+				</div>
+
+				<div id="InformacionPersonal">
+					<h3>Nombre:</h3> Ivan Alejandro Gutierrez Espinosa
+					<h3>Edad:</h3> 18 años
+					<h3>Grado academico:</h3> Pregrado
+					<h3>Programa:</h3> Ingenieria informatica
+				</div>
+
+				<div id="Feedback">
+					<h2>¿Te gusto el Blog?</h2> <br>
+					<button onclick="accion_1()" id="Bt1">Sí</button> 
+					<button onclick="accion_2()" id="Bt2">No</button> 
+				</div>
+
+			</div>	
+
+		<style type="text/css">
+
+			body
+			{
+				background-image: url("fondo.png");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+
+			.Encabezado
+			{
+				font-size: x-large;
+				font-family: "monospace";
+				font-weight: bold;
+				border: 5px outset #2144A9;
+				color: #000000;
+				background-color: #668DFF;
+				text-align: center;
+				width:1940px;
+				
+			}
+
+			#Contenedor
+			{
+				margin:0 auto;
+				width:1950px;
+			}
+
+			#Texto
+			{
+				font-size: x-large;
+				background:rgba(60, 54, 244, .4);
+				float:left;
+				height: 1200px;
+        		width:1500px;
+        		padding: 15px;
+        		font-family: "Times New Roman";
+				font-weight: normal;
+				border: 3px inset #2144A9;
+				color: #000000;
+				text-align: left;
+			}
+
+			#Imagenes
+			{
+				background:rgba(0, 0, 0, .4);
+				float:  right;
+				height:475px;
+        		width:413px;
+			}
+			.center
+			{
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+
+			#InformacionPersonal
+			{
+				background:rgba(255, 255, 255, .4);
+				height:370px;
+				width:403px;
+				float:right;
+				padding: 5px;
+				font-size: large;
+			}
+
+			#Feedback
+			{
+				height:100px;
+				width:403px;
+				float:right;
+				padding: 5px;
+				font-size: large;
+				text-align: center;
+			}
+		</style>
+
+		<script type="text/javascript">
+			
+			function accion_1(){alert("Muchas gracias por tu comentario positivo :)")}
+			function accion_2(){alert(":(")}
+
+		</script>
+	</body>
+
+</html>
